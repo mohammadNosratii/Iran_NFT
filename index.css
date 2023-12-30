@@ -20,8 +20,8 @@ body {
   background-color: #07101d !important;
   font-family:"Vasir Light" !important;
 }
-.container {
-  padding-top: 50px;
+.container-fluid {
+  padding:50px 30px !important;
 }
 .header-color {
 color: #FF3C00 !important;
