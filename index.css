@@ -18,21 +18,21 @@ body {
   margin: 0;
   padding: 0;
   background-color: #07101d !important;
-  font-family:"Vasir Light" !important;
+  font-family: "Vasir Light" !important;
 }
 .container-fluid {
-  padding:50px 30px !important;
+  padding: 50px 30px !important;
 }
 .header-color {
-color: #FF3C00 !important;
+  color: #ff3c00 !important;
 }
 
 .burger-menu {
-cursor: pointer;
+  cursor: pointer;
 }
 
 .underline {
-  background-color: #FF3C00;
+  background-color: #ff3c00;
   width: 80%;
   height: 1px;
   bottom: -6px;
@@ -41,7 +41,7 @@ cursor: pointer;
 .login-btn {
   width: 184px;
   height: 64px;
-  background-color: #FF3C00 !important;
+  background-color: #ff3c00 !important;
   font-family: "Vasir Bold" !important;
 }
 .svg-cart {
@@ -50,33 +50,59 @@ cursor: pointer;
 }
 
 .header-h6 {
-  font-size:18px;
+  font-size: 18px;
 }
 .bold-text {
   font-family: "Vasir Bold";
 }
-.size { 
+.size {
   font-size: 50px;
 }
 .header-paragraph {
-  color: #FFFFFF80;
-  font-size:20px;
+  color: #ffffff80;
+  font-size: 20px;
 }
 .serach-logo {
   right: 30px;
   bottom: 15px;
 }
 .input {
-  border-color: #FF3C00;
+  border-color: #ff3c00;
   outline: none;
   padding-right: 3.5rem;
 }
 .bg-linear {
-  background: linear-gradient(90deg, #7011AD 0%, #BC0505 49.31%, #FC630F 100%);
+  background: linear-gradient(90deg, #7011ad 0%, #bc0505 49.31%, #fc630f 100%);
 }
 .button-size {
   font-size: 18px;
 }
+
+.header-img-wrapper {
+  margin-top: 30px !important; 
+  background-image: url(./assets/image/header/Rectangle\ 48.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.header-img {
+  transform: translate(230px , 130px) scale(2) rotate(-1deg);
+}
+.header-img-path-top-right {
+  transform: translate(70px , 70px);
+}
+.header-img-path-bottom-left {
+  transform: translate(-380px , 20px);
+}
+
+
+
+
+
+
+
+
+
 
 
 
