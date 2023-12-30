@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Vasir Bold";
+  src: url("./assets/fonts/Vazir-Bold.ttf");
+}
+@font-face {
+  font-family: "Vasir Light";
+  src: url("./assets/fonts/Vazir-Light.ttf");
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #07101d !important;
+  font-family:"Vasir Light" !important;
+}
+.container {
+  padding-top: 50px;
+}
+.header-color {
+color: #FF3C00 !important;
+}
+
+.burger-menu {
+cursor: pointer;
+}
+
+.underline {
+  background-color: #FF3C00;
+  width: 80%;
+  height: 1px;
+  bottom: -6px;
+  right: 7px;
+}
+.login-btn {
+  width: 184px;
+  height: 64px;
+  background-color: #FF3C00 !important;
+  font-family: "Vasir Bold" !important;
+}
+.svg-cart {
+  width: 20px;
+  height: 20px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .login-btn {
+    width: 120px;
+    height: 50px;
+    font-size: 10px !important;
+  }
+  .user-logo {
+    width: 20px;
+  }
+  .nft-logo {
+    width: 70%;
+  }
+}
