@@ -49,6 +49,39 @@ cursor: pointer;
   height: 20px;
 }
 
+.header-h6 {
+  font-size:18px;
+}
+.bold-text {
+  font-family: "Vasir Bold";
+}
+.size { 
+  font-size: 50px;
+}
+.header-paragraph {
+  color: #FFFFFF80;
+  font-size:20px;
+}
+.serach-logo {
+  right: 30px;
+  bottom: 15px;
+}
+.input {
+  border-color: #FF3C00;
+  outline: none;
+  padding-right: 3.5rem;
+}
+.bg-linear {
+  background: linear-gradient(90deg, #7011AD 0%, #BC0505 49.31%, #FC630F 100%);
+}
+.button-size {
+  font-size: 18px;
+}
+
+
+
+
+
 
 @media only screen and (max-width: 992px) {
   .login-btn {
