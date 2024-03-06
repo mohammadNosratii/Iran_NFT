@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "Vasir Bold";
+  src: url("./assets/fonts/Vazir-Bold.ttf");
+}
+@font-face {
+  font-family: "Vasir Light";
+  src: url("./assets/fonts/Vazir-Light.ttf");
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color_07101d: #07101d;
+  --color_FF3C00: #ff3c00;
+}
+a {
+  text-decoration: none !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color_07101d) !important;
+  font-family: "Vasir light" !important;
+}
+header::before {
+  content: "";
+  width: 904px;
+  height: 876px;
+  background-image: radial-gradient(#3d0d58 38%, #070f1c 0%);
+  position: absolute;
+  filter: blur(80px);
+  opacity: 0.5;
+  right: -290px;
+  top: -280px;
+  z-index: -1;
+}
+.bg-color-btn {
+  background-color: var(--color_FF3C00);
+}
+.text-color {
+  color: var(--color_FF3C00);
+}
+.border_color {
+  border-color: var(--color_FF3C00) !important;
+  border: 1px solid;
+}
+.bg-color {
+  background: linear-gradient(90deg, #7011ad 0%, #bc0505 49.31%, #fc630f 100%);
+}
+.bold-text {
+  font-family: "vasir Bold";
+}
+.sub-header {
+  font-size: 20px;
+}
+.title-main-header {
+  font-size: 53px;
+}
+.header-paragraph {
+  font-size: 20px;
+}
+.input-header {
+  outline: none;
+}
+
+.main-header-path {
+  top: 60px;
+  right: 100px;
+}
+.main-header-path2 {
+  left: 30px;
+  bottom: 50px;
+}
+
+.user-box {
+  width: 200px;
+  height: 60px;
+  backdrop-filter: blur(10px);
+  bottom: 70px;
+  right: 145px;
+}
+
+.user-box-img {
+  width: 40%;
+}
+
+.wallet-box {
+  padding: 1px;
+  height: 180px;
+}
+.wallet-box::after {
+  content: '';
+  width: 43px;
+  height: 22px;
+  position: absolute;
+  bottom: 0;
+  right: -16px;
+  background-color: #07101d;
+  transform: rotate(128deg);
+}
+.wallet-box > div {
+  background-color: #161e2a;
+}
+
+.wallet-box1 {
+  background-image: linear-gradient(to right bottom, #07101d, #fc280c);
+}
+.wallet-box1::after {
+  border-bottom: 1px solid #fc280c;
+}
+.wallet-box2 {
+  background-image: linear-gradient(to right bottom, #07101d, #ffbf1c);
+}
+.wallet-box2::after {
+  border-bottom: 1px solid #ffbf1c;
+}
+.wallet-box3 {
+  background-image: linear-gradient(to right bottom, #07101d, #fe007a);
+}
+.wallet-box3::after {
+  border-bottom: 1px solid #fe007a;
+}
+.wallet-box4 {
+  background-image: linear-gradient(to right bottom, #07101d, #760aff);
+}
+.wallet-box4::after {
+  border-bottom: 1px solid #760aff;
+}
+.wallet-box5 {
+  background-image: linear-gradient(to right bottom, #07101d, #00D1FF
+  );
+}
+.wallet-box5::after {
+  border-bottom: 1px solid #00D1FF;
+}
+
+
+.wallet-box-img {
+  width: 60px;
+}
+
+.hot-bids-box {
+  background-color: rgba(255, 255, 255, 0.10);
+}
+.img-hot-bids div {
+  top: 30px;
+  left: 50px;
+}
+
+
+.heart-box {
+  width: 58px;
+  height: 58px;
+  backdrop-filter: blur (10px);
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .title-main-header {
+    font-size: 45px;
+  }
+  .sub-header {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .bg-dark-md {
+    background-color: var(--bs-secondary-color);
+  }
+  header::before {
+    width: 25%;
+    height: 35%;
+    right: 75%;
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .title-main-header {
+    font-size: 35px;
+  }
+  .sub-header {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .title-main-header {
+    font-size: 30px;
+  }
+  .sub-header {
+    font-size: 12px;
+  }
+}
