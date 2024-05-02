@@ -1,844 +1,578 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Iran-NFT</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="container-fluid">
-      <section class="header">
-        <nav
-          class="menu-wrapper d-flex justify-content-between align-items-center"
-        >
-          <img
-            class="burger-menu d-lg-none"
-            src="./assets/logo/burger-menu.svg"
-            alt=""
-          />
+<html lang="fa" dir="rtl">
 
-          <div class="d-flex justify-content-end">
-            <img class="nft-logo" src="./assets/logo/logo.svg" alt="" />
-          </div>
-          <div class="menu-items d-flex d-none d-lg-flex gap-md-5">
-            <div class="position-relative">
-              <a class="header-color text-decoration-none" href="">صفحه اصلی</a>
-              <span
-                class="underline position-absolute mx-auto d-inline-block"
-              ></span>
-            </div>
-            <a class="text-decoration-none text-light" href="">آموزش NFT</a>
-            <a class="text-decoration-none text-light" href=""
-              >گالری NFT ایرانی</a
-            >
-            <a class="text-decoration-none text-light" href="">تبلیغ NFT</a>
-          </div>
-          <div>
-            <img
-              class="svg-cart d-none d-md-inline-block"
-              src="./assets/logo/cart.svg"
-              alt=""
-            />
-            <button
-              class="login-btn btn text-light d-none d-md-inline-block me-2 me-lg-4"
-            >
-              <img class="user-logo ms-2" src="./assets/logo/user.svg" alt="" />
-              ورود / ثبت نام
-            </button>
-            <div>
-              <img
-                class="d-inline-block d-md-none"
-                src="./assets/logo/chat-logo.svg"
-                alt=""
-              />
-              <img
-                class="d-inline-block d-md-none me-2"
-                src="./assets/logo/user.svg"
-                alt=""
-              />
-            </div>
-          </div>
-        </nav>
-        <div class="row row-wrapper">
-          <div class="col-12 col-lg-7 text-light header-right">
-            <h6 class="header-h6 text-center text-lg-end">
-              بازار جهانی توکن های غیر مثلثی بر بستر بلاکچین پلیگان
-            </h6>
-            <h1
-              class="header-h1 bold-text size mt-4 mt-lg-5 text-sm-center text-lg-end"
-            >
-              دنیای NFT های<span class="header-color"> شگفت انگیز </span>
-            </h1>
-            <p class="header-paragraph text-center text-lg-end mt-lg-3">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-              استفاده از طراحان گرافیک است
-            </p>
-            <div class="row align-items-center mt-5">
-              <div class="col-12 col-lg-7 position-relative">
-                <img
-                  class="serach-logo position-absolute d-none d-lg-block"
-                  src="./assets/logo/search.svg"
-                  alt=""
-                />
-                <input
-                  class="w-100 d-none d-lg-block input bg-transparent text-light border-1 rounded-5 py-3"
-                  type="text"
-                  placeholder="جستجوی NFT ها و هنرمندان "
-                />
-              </div>
-              <div
-                class="button-size-wrapper col-12 col-lg-4 d-flex justify-content-center"
-              >
-                <button
-                  class="w-100 bold-text button-size bg-linear text-light border-0 p-3"
-                >
-                  دریافت مشاوره رایگان
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-5 header-img-wrapper">
-            <img
-              class="header-img-path-top-right"
-              src="./assets/image/header/Path.png"
-              alt=""
-            />
-            <img
-              class="img-fluid bg-header-img"
-              src="./assets/image/header/Rectangle 48.png"
-              alt=""
-            />
-            <img
-              class="img-fluid z-2 header-img"
-              src="./assets/image/header/Mask group.png"
-              alt=""
-            />
-            <img
-              class="header-img-path-bottom-left"
-              src="./assets/image/header/scribble final version-02.png"
-              alt=""
-            />
-            <div
-              class="header-logo-box-wrapper d-flex align-items-center justify-content-center bg-light bg-opacity-25 rounded-3 text-light"
-            >
-              <div class="header-logo-box d-flex justify-content-center">
-                <img
-                  class="logo-116 header-logo-box-size z-3 position-relative"
-                  src="./assets/logo/Group 116.svg"
-                  alt=""
-                />
-                <img
-                  class="logo-114 header-logo-box-size z-2 position-relative"
-                  src="./assets/logo/Group 114.svg"
-                  alt=""
-                />
-                <img
-                  class="logo-112 header-logo-box-size z-1 position-relative"
-                  src="./assets/logo/Group 112.svg"
-                  alt=""
-                />
-                <img
-                  class="logo-113 header-logo-box-size position-relative"
-                  src="./assets/logo/Group 113.svg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <h6 class="h6-logo-box bold-text pt-2">۵۰۰+ هنرمند</h6>
-              </div>
-            </div>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <div class="containerblur-1 w-100 h-100">
+        <div class="containersite">
         </div>
-      </section>
-
-      <section class="main">
-        <div class="main-wrapper">
-          <div class="wallet-wrapper text-light">
-            <div class="wallet-btn d-flex align-items-center px-4">
-              <div>
-                <button
-                  class="btn border-0 rounded-circle rounded-5 btn-wallet"
-                >
-                  <img src="./assets/logo/wallet-logo/wallet2.svg" alt="" />
-                </button>
-              </div>
-              <div class="me-3">
-                <h3>کیف پول</h3>
-                <h4>Wallet</h4>
-              </div>
-            </div>
-            <div
-              class="wallet-box-wrapper justify-content-center row mt-5 gap-4"
-            >
-              <div
-                class="wallet-box1 wallet-box-size d-flex flex-column justify-content-end align-items-center"
-              >
-                <img
-                  class="wallet-box-logo"
-                  src="./assets/image/wallet-png/metamask.png"
-                  alt=""
-                />
-                <span class="pt-4 pb-3">Meta Mask</span>
-              </div>
-              <div
-                class="wallet-box2 wallet-box-size d-flex flex-column justify-content-end align-items-center"
-              >
-                <img
-                  class="wallet-box-logo"
-                  src="./assets/image/wallet-png/pngaaa 1.png"
-                  alt=""
-                />
-
-                <span class="pt-4 pb-3">Coinbase</span>
-              </div>
-              <div
-                class="wallet-box3 wallet-box-size d-flex flex-column justify-content-end align-items-center"
-              >
-                <img
-                  class="wallet-box-logo"
-                  src="./assets/image/wallet-png/image 1.png"
-                  alt=""
-                />
-                <span class="pt-4 pb-3">Exodus</span>
-              </div>
-              <div
-                class="wallet-box4 wallet-box-size d-flex flex-column justify-content-end align-items-center"
-                wallet-box-size
-              >
-                <img
-                  class="wallet-box-logo"
-                  src="./assets/image/wallet-png/uniswap-coin-uni-cryptocurrency-icon-vector-39141450 1.png"
-                  alt=""
-                />
-                <span class="pt-4 pb-3">Uniswap</span>
-              </div>
-              <div
-                class="wallet-box5 wallet-box-size d-flex flex-column justify-content-end align-items-center"
-              >
-                <img
-                  class="wallet-box-logo"
-                  src="./assets/image/wallet-png/Group 25.png"
-                  alt=""
-                />
-                <span class="pt-4 pb-3">Bainance</span>
-              </div>
-              <div
-                class="wallet-box1 wallet-box-size d-flex flex-column justify-content-end align-items-center"
-              >
-                <img
-                  class="wallet-box-logo"
-                  src="./assets/image/wallet-png/metamask.png"
-                  alt=""
-                />
-                <span class="pt-4 pb-3">Bainance</span>
-              </div>
-            </div>
-          </div>
-          <div class="hot-bids-wrapper text-light">
-            <div
-              class="hot-bids-btn-wrapper d-flex justify-content-between align-items-end px-4 ps-5"
-            >
-              <div class="hot-bids-btn d-flex align-items-center">
-                <div>
-                  <button
-                    class="btn border-0 rounded-circle rounded-5 btn-wallet"
-                  >
-                    <img src="./assets/logo/wallet-logo/Group 71.svg" alt="" />
-                  </button>
-                </div>
-                <div class="me-3">
-                  <h3>پیشنهاد های داغ</h3>
-                  <h4>Hot Bids</h4>
-                </div>
-              </div>
-              <div class="d-flex align-items-center pb-3">
-                <span class="ps-2"> مشاهده همه </span>
-                <i class="fas fa-arrow-left"></i>
-              </div>
-            </div>
-            <div
-              class="hot-bids-card-wrapper justify-content-center rounded-5 d-flex gap-4 mt-5"
-            >
-              <div class="card hot-bids-card p-2">
-                <div class="position-relative">
-                  <img
-                    class="card-img-top"
-                    src="./assets/image/hot-bids-png/image 5.png"
-                    alt=""
-                  />
-                  <div
-                    class="countdown-box rounded-5 bg-gradient d-flex flex-row-reverse align-items-center justify-content-evenly text-light position-absolute"
-                  >
-                    <span>2h</span>
-                    <span>34m</span>
-                    <span>8s</span>
-                  </div>
-                  <div
-                    class="logo-hot-bids-box-wrapper d-flex align-items-center justify-content-center position-absolute bg-gradient rounded-circle"
-                  >
-                    <img
-                      class="logo-hot-bids-box"
-                      src="./assets/logo/hot-bids-logo/heart.svg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div class="card-body text-light mt-2">
-                  <div class="d-flex flex-column align-items-end">
-                    <h5 class="card-title bold-text">Digi Boy</h5>
-                    <span>By Negar</span>
-                  </div>
-                  <div
-                    class="d-flex align-items-center justify-content-between mt-2"
-                  >
-                    <span>اخرین پیشنهاد</span>
-                    <div class="text-start">
-                      <span>۲,۷۸ ETH</span>
-                      <img
-                        class="eth-logo"
-                        src="./assets/logo/hot-bids-logo/Group 67.svg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <a
-                    class="btn hot-bids-order-btn border-0 text-light mt-3 px-4"
-                    href=""
-                    >پیشنهاد سریع</a
-                  >
-                </div>
-              </div>
-              <div class="card hot-bids-card p-2">
-                <div class="position-relative">
-                  <img
-                    class="card-img-top"
-                    src="./assets/image/hot-bids-png/image 5-2.png"
-                    alt=""
-                  />
-                  <div
-                    class="countdown-box rounded-5 bg-gradient d-flex flex-row-reverse align-items-center justify-content-evenly text-light position-absolute"
-                  >
-                    <span>2h</span>
-                    <span>34m</span>
-                    <span>8s</span>
-                  </div>
-                  <div
-                    class="logo-hot-bids-box-wrapper d-flex align-items-center justify-content-center position-absolute bg-gradient rounded-circle"
-                  >
-                    <img
-                      class="logo-hot-bids-box"
-                      src="./assets/logo/hot-bids-logo/heart.svg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div class="card-body text-light mt-2">
-                  <div class="d-flex flex-column align-items-end">
-                    <h5 class="card-title bold-text">Angry Ape</h5>
-                    <span>By Farshad</span>
-                  </div>
-                  <div
-                    class="d-flex align-items-center justify-content-between mt-2"
-                  >
-                    <span>اخرین پیشنهاد</span>
-                    <div class="text-start">
-                      <span>۳,۹۵ ETH</span>
-                      <img
-                        class="eth-logo"
-                        src="./assets/logo/hot-bids-logo/Group 67.svg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <a
-                    class="btn hot-bids-order-btn border-0 text-light mt-3 px-4"
-                    href=""
-                    >پیشنهاد سریع</a
-                  >
-                </div>
-              </div>
-              <div class="card hot-bids-card p-2">
-                <div class="position-relative">
-                  <img
-                    class="card-img-top"
-                    src="./assets/image/hot-bids-png/image 5-3.png"
-                    alt=""
-                  />
-                  <div
-                    class="countdown-box rounded-5 bg-gradient d-flex flex-row-reverse align-items-center justify-content-evenly text-light position-absolute"
-                  >
-                    <span>2h</span>
-                    <span>34m</span>
-                    <span>8s</span>
-                  </div>
-                  <div
-                    class="logo-hot-bids-box-wrapper d-flex align-items-center justify-content-center position-absolute bg-gradient rounded-circle"
-                  >
-                    <img
-                      class="logo-hot-bids-box"
-                      src="./assets/logo/hot-bids-logo/heart.svg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div class="card-body text-light mt-2">
-                  <div class="d-flex flex-column align-items-end">
-                    <h5 class="card-title bold-text">Virtualland</h5>
-                    <span>By Amirhossein</span>
-                  </div>
-                  <div
-                    class="d-flex align-items-center justify-content-between mt-2"
-                  >
-                    <span>اخرین پیشنهاد</span>
-                    <div class="text-start">
-                      <span>۲,۵۳ ETH</span>
-                      <img
-                        class="eth-logo"
-                        src="./assets/logo/hot-bids-logo/Group 67.svg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <a
-                    class="btn hot-bids-order-btn border-0 text-light mt-3 px-4"
-                    href=""
-                    >پیشنهاد سریع</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div
-              class="info-box-wrapper d-flex justify-content-center text-light gap-4"
-            >
-              <div class="info-box1 rounded-2 p-3 position-relative">
-                <h3 class="pt-5 pb-2">سرعت</h3>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
-                  با استفاده از طراحان گرافیک است
-                </p>
-                <span
-                  class="info-box-badge position-absolute bg-gradient rounded-4 text-center pt-3"
-                >
-                  <span>
-                    <img
-                      class="info-box-badge-img"
-                      src="./assets/logo/hot-bids-logo/Group 92.svg"
-                      alt=""
-                    />
-                  </span>
-                </span>
-              </div>
-              <div class="info-box2 rounded-2 p-3 position-relative">
-                <h3 class="pt-5 pb-2">امنیت</h3>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
-                  با استفاده از طراحان گرافیک است
-                </p>
-                <span
-                  class="info-box-badge position-absolute bg-gradient rounded-4 text-center pt-3"
-                >
-                  <span>
-                    <img
-                      class="info-box-badge-img"
-                      src="./assets/logo/hot-bids-logo/securityuser.svg"
-                      alt=""
-                    />
-                  </span>
-                </span>
-              </div>
-              <div class="info-box3 rounded-2 p-3 position-relative">
-                <h3 class="pt-5 pb-2">پشتیبانی</h3>
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
-                  با استفاده از طراحان گرافیک است
-                </p>
-                <span
-                  class="info-box-badge position-absolute bg-gradient rounded-4 text-center pt-3"
-                >
-                  <span>
-                    <img
-                      class="info-box-badge-img"
-                      src="./assets/logo/hot-bids-logo/Vector.svg"
-                      alt=""
-                    />
-                  </span>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="trends-wrapper text-light">
-            <div
-              class="trends-btn-wrapper d-flex justify-content-between align-items-end px-4 ps-5"
-            >
-              <div class="trends-btn d-flex align-items-center">
-                <div>
-                  <button
-                    class="btn border-0 rounded-circle rounded-5 btn-wallet"
-                  >
-                    <img src="./assets/logo/wallet-logo/Group 71.svg" alt="" />
-                  </button>
-                </div>
-                <div class="me-3">
-                  <h3>پر بازدید ترین ها</h3>
-                  <h4>Trends</h4>
-                </div>
-              </div>
-              <div class="d-flex align-items-center pb-3">
-                <span class="ps-2"> مشاهده همه </span>
-                <i class="fas fa-arrow-left"></i>
-              </div>
-            </div>
-            <div class="trends-box-wrapper row px-5 mt-4">
-              <div class="trends-box col-4 position-relative">
-                <img
-                  class="trends-box-img"
-                  src="./assets/image/Trends-png/image 6.png"
-                  alt=""
-                />
-                <div
-                  class="card-body position-absolute rounded-4 d-flex flex-column align-items-end justify-content-end bg-light bg-opacity-25 trends-box-body p-3 px-4"
-                >
-                  <h5 class="card-title bold-text">D'EVOLs</h5>
-                  <div
-                    class="d-flex flex-row-reverse align-items-center justify-content-between w-100 mt-2"
-                  >
-                    <div>
-                      <span> By Mahsa </span>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <span class="ps-2">۲.۱۸ ETH</span>
-                      <img
-                        class="eth-logo"
-                        src="./assets/logo/hot-bids-logo/Group 67.svg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="trends-box col-4 position-relative">
-                <img
-                  class="trends-box-img"
-                  src="./assets/image/Trends-png/image 6-2.png"
-                  alt=""
-                />
-                <div
-                  class="card-body position-absolute rounded-4 d-flex flex-column align-items-end justify-content-end bg-light bg-opacity-25 trends-box-body p-3 px-4"
-                >
-                  <h5 class="card-title bold-text">D'EVOLs</h5>
-                  <div
-                    class="d-flex flex-row-reverse align-items-center justify-content-between w-100 mt-2"
-                  >
-                    <div>
-                      <span> By Amir </span>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <span class="ps-2">۲.۶۸ ETH</span>
-                      <img
-                        class="eth-logo"
-                        src="./assets/logo/hot-bids-logo/Group 67.svg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="trends-box col-4 position-relative">
-                <img
-                  class="trends-box-img"
-                  src="./assets/image/Trends-png/image 6-3.png"
-                  alt=""
-                />
-                <div
-                  class="card-body position-absolute rounded-4 d-flex flex-column align-items-end justify-content-end bg-light bg-opacity-25 trends-box-body p-3 px-4"
-                >
-                  <h5 class="card-title bold-text">D'EVOLs</h5>
-                  <div
-                    class="d-flex flex-row-reverse align-items-center justify-content-between w-100 mt-2"
-                  >
-                    <div>
-                      <span> By Reza </span>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <span class="ps-2">۲.۹۰ ETH</span>
-                      <img
-                        class="eth-logo"
-                        src="./assets/logo/hot-bids-logo/Group 67.svg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="top-creators-wrapper text-light">
-            <div class="top-creator-btn d-flex align-items-center px-4">
-              <div>
-                <button
-                  class="btn border-0 rounded-circle rounded-5 btn-wallet"
-                >
-                  <img src="./assets/logo/top-creator-logo/Vector.svg" alt="" />
-                </button>
-              </div>
-              <div class="me-3">
-                <h3>هنرمندان برتر</h3>
-                <h4>Top Creators</h4>
-              </div>
-            </div>
-            <div class="top-creator-box-wrapper d-grid gap-3 mt-4 px-4">
-              <div
-                class="top-creator-box rounded-3 d-flex flex-row-reverse align-items-center justify-content-between"
-              >
-                <div
-                  class="d-flex align-items-center justify-content-center h-100 gap-3"
-                >
-                  <div
-                    class="d-flex flex-column justify-content-around align-items-end h-75"
-                  >
-                    <h5 class="bold-text m-0">Negar77</h5>
-                    <img
-                      class="top-creator-box-start-img"
-                      src="assets/logo/top-creator-logo/Group 104.svg"
-                      alt=""
-                    />
-                    <span> ۵۶,۳۲ ETH </span>
-                  </div>
-                  <img
-                    class="top-creator-box-img"
-                    src="./assets/logo/top-creator-logo/Group 112-3.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="align-self-end pb-4 pe-3">
-                  <span>فروش کل :</span>
-                </div>
-              </div>
-              <div
-                class="top-creator-box rounded-3 d-flex flex-row-reverse align-items-center justify-content-between"
-              >
-                <div
-                  class="d-flex align-items-center justify-content-center h-100 gap-3"
-                >
-                  <div
-                    class="d-flex flex-column justify-content-around align-items-end h-75"
-                  >
-                    <h5 class="bold-text m-0">Mahdi_nft</h5>
-                    <img
-                      class="top-creator-box-star-img"
-                      src="assets/logo/top-creator-logo/Group 104.svg"
-                      alt=""
-                    />
-                    <span> ۵۶,۳۲ ETH </span>
-                  </div>
-                  <img
-                    class="top-creator-box-img"
-                    src="./assets/logo/top-creator-logo/Group 112-4.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="align-self-end pb-4 pe-3">
-                  <span>فروش کل :</span>
-                </div>
-              </div>
-              <div
-                class="top-creator-box rounded-3 d-flex flex-row-reverse align-items-center justify-content-between"
-              >
-                <div
-                  class="d-flex align-items-center justify-content-center h-100 gap-3"
-                >
-                  <div
-                    class="d-flex flex-column justify-content-around align-items-end h-75"
-                  >
-                    <h5 class="bold-text m-0">Amir_hs75</h5>
-                    <img
-                      class="top-creator-box-start-img"
-                      src="assets/logo/top-creator-logo/Group 104.svg"
-                      alt=""
-                    />
-                    <span> ۵۶,۳۲ ETH </span>
-                  </div>
-                  <img
-                    class="top-creator-box-img"
-                    src="./assets/logo/top-creator-logo/Group 112-5.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="align-self-end pb-4 pe-3">
-                  <span>فروش کل :</span>
-                </div>
-              </div>
-              <div
-                class="top-creator-box rounded-3 d-flex flex-row-reverse align-items-center justify-content-between"
-              >
-                <div
-                  class="d-flex align-items-center justify-content-center h-100 gap-3"
-                >
-                  <div
-                    class="d-flex flex-column justify-content-around align-items-end h-75"
-                  >
-                    <h5 class="bold-text m-0">Kamran19</h5>
-                    <img
-                      class="top-creator-box-start-img"
-                      src="assets/logo/top-creator-logo/Group 104.svg"
-                      alt=""
-                    />
-                    <span> ۵۶,۳۲ ETH </span>
-                  </div>
-                  <img
-                    class="top-creator-box-img"
-                    src="./assets/logo/top-creator-logo/Group 112-6.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="align-self-end pb-4 pe-3">
-                  <span>فروش کل :</span>
-                </div>
-              </div>
-              <div
-                class="top-creator-box rounded-3 d-flex flex-row-reverse align-items-center justify-content-between"
-              >
-                <div
-                  class="d-flex align-items-center justify-content-center h-100 gap-3"
-                >
-                  <div
-                    class="d-flex flex-column justify-content-around align-items-end h-75"
-                  >
-                    <h5 class="bold-text m-0">Mahsa_art</h5>
-                    <img
-                      class="top-creator-box-start-img"
-                      src="assets/logo/top-creator-logo/Group 104.svg"
-                      alt=""
-                    />
-                    <span> ۵۶,۳۲ ETH </span>
-                  </div>
-                  <img
-                    class="top-creator-box-img"
-                    src="./assets/logo/top-creator-logo/Ellipse 10.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="align-self-end pb-4 pe-3">
-                  <span>فروش کل :</span>
-                </div>
-              </div>
-              <div
-                class="top-creator-box rounded-3 d-flex flex-row-reverse align-items-center justify-content-between"
-              >
-                <div
-                  class="d-flex align-items-center justify-content-center h-100 gap-3"
-                >
-                  <div
-                    class="d-flex flex-column justify-content-around align-items-end h-75"
-                  >
-                    <h5 class="bold-text m-0">omid1995</h5>
-                    <img
-                      class="top-creator-box-start-img"
-                      src="assets/logo/top-creator-logo/Group 104.svg"
-                      alt=""
-                    />
-                    <span> ۵۶,۳۲ ETH </span>
-                  </div>
-                  <img
-                    class="top-creator-box-img"
-                    src="./assets/logo/top-creator-logo/Group 112-2.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="align-self-end pb-4 pe-3">
-                  <span>فروش کل :</span>
-                </div>
-              </div>
-            </div>
-            <div class="news-box rounded-5 text-center">
-              <h1 class="bold-text pt-5">عضویت در خبرنامه</h1>
-              <p>
-                به جامعه Art توکن بپیوندید تا در جریان آخرین اخبار,ویژگی ها و
-                نکات مربوط به این بازار قرار بگیرید.
-              </p>
-              <div dir="ltr" class="input-group input-group-wrapper w-50">
-                <button
-                  class="input-group-text btn-news bg-black text-light border-0 bold-text"
-                >
-                  ارسال
-                </button>
-                <input
-                  dir="rtl"
-                  type="text"
-                  class="form-control border-0 input-news"
-                  placeholder="ایمیل خود را وارد کنید"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
     </div>
-    <section class="footer">
-      <div
-        class="footer-wrapper text-light d-flex align-items-center justify-content-evenly py-5 px-4"
-      >
-        <div class="footer-info pb-4">
-          <h2 class="pb-4">Iran NFT</h2>
-          <p>
-            بازار دیجیتال جهانی برای خرید و فروش کلکسیون ها و توکن های غیر
-            قابل تعویض (NFT) و کشف اقلام دیجیتال منحصر به فرد
-          </p>
-        </div>
-        <div class="d-flex flex-column gap-4">
-          <h3 class="bold-text">دسترسی سریع</h3>
-          <span>شرایط استفاده از خدمات</span>
-          <span>سوالات متداول</span>
-          <span>درباره ما</span>
-        </div>
-        <div class="d-flex flex-column gap-4">
-          <h3 class="bold-text">حساب من</h3>
-          <span>پروفایل</span>
-          <span>ان اف تی های شما</span>
-          <span>علاقه مندی ها</span>
-        </div>
-        <div class="d-flex flex-column justify-content-center h-100">
-          <h3 class="bold-text join-text">به ما بپیوندید</h3>
-          <div class="d-flex gap-3 pb-5">
-            <div class="bg-light bg-opacity-10 rounded-3 p-1">
-              <img
-                src="./assets/logo/footer-logo/basil_telegram-outline.svg"
-                alt=""
-              />
-            </div>
-            <div class="bg-light bg-opacity-10 rounded-3 p-1">
-              <img
-                src="./assets/logo/footer-logo/ri_twitter-line.svg"
-                alt=""
-              />
-            </div>
-            <div class="discord-logo bg-light bg-opacity-10 rounded-3 p-1">
-              <img src="./assets/logo/footer-logo/ic_baseline-discord.svg" alt="">
-            </div>
-            <div class="bg-light bg-opacity-10 rounded-3 p-1">
-              <img src="./assets/logo/footer-logo/uil_instagram.svg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/0e84403693.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <header class="pt-4">
+        <div class="navbar navbar-expand-lg p-2">
+            <div class="container d-flex align-items-center ">
+                <button class="navbar-toggler align-middle border-0 p-1" data-bs-toggle="offcanvas"
+                    data-bs-target="#navbarTogglerDemo03">
+                    <img src="images/icons/textalignright.svg" width="30px" alt="">
+                </button>
+
+                <a href="#" class="navbar-brand text-light">
+                    <h2 class="brand-nft mt-3">Iran NFT</h2>
+                </a>
+
+                <div class=" offcanvas offcanvas-start justify-content-between p-3 bg-opacity-75 sideBarBgColor"
+                    id="navbarTogglerDemo03">
+                    <div class="d-flex justify-content-center align-items-center flex-column">
+                        <div
+                            class="offcanvas-header px-0 d-lg-none  d-flex align-items-center justify-content-between w-100">
+                            <h3 class=" pt-2 text-light fw-normal">Iran NFT</h3>
+                            <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <ul
+                            class="navbar-nav nav-underline justify-content-center w-100 align-items-start align-items-lg-center w-50 menu-navbar text-nowrap">
+                            <li class="nav-item text-start">
+                                <a href="" class="nav-link active fw-bold text-nowrap d-inline">صفحه اصلی</a>
+                            </li>
+                            <li class="nav-item text-start ">
+                                <a href="" class="nav-link text-nowrap">آموزش NFT</a>
+                            </li>
+                            <li class="nav-item text-start">
+                                <a href="" class="nav-link text-nowrap">گالری NFT ایرانی</a>
+                            </li>
+                            <li class="nav-item text-start">
+                                <a href="" class="nav-link text-nowrap">تبلیغ NFT</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="text-start d-lg-none w-100">
+                        <button class="btn btn-outline-primary w-100">
+                            <a href="" class="nav-link text-nowrap text-light d-inline pe-2">سبد خرید</a>
+                            <img src="images/icons/shoppingcart.svg" alt="">
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="d-lg-none">
+                    <button class="btn">
+                        <img src="images/icons/searchnormal1.svg" width="30px" alt="">
+                    </button>
+                    <button class="btn">
+                        <img src="images/icons/user.svg" width="30px" alt="">
+                    </button>
+                </div>
+
+                <div class="d-flex d-none d-lg-block justify-content-between gap-3">
+                    <button class="btn">
+                        <img src="images/icons/shoppingcart.svg" alt="">
+                    </button>
+                    <button class="btn-login bg-gradient">
+                        <img src="images/icons/user.svg" alt="">
+                        <span class="fw-bold fs-5 text-light text-nowrap">ورود / ثبت نام</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container d-flex flex-column flex-lg-row align-items-center header-container">
+            <div
+                class="header-content-right h-100 d-flex flex-column justify-content-center gap-4 align-items-center align-items-lg-start mt-5">
+                <p class="text-light fs-4">بازار جهانی توکن‌های غیرمثلی بر بستر بلاکچین پلیگان</p>
+                <h1 class="text-light"> دنیای NFT های <span class="text-span">شگفت انگیز</span> </h1>
+
+                <div class="header-content-left d-lg-none d-flex flex-column justify-content-center position-relative">
+                    <div class="position-relative container-header-photos w-100">
+                        <img src="images/header/Group 137.png" class="object-fit-cover photo1" alt="">
+                        <img src="images/header/Path (1).png" width="57px" class="photo2" alt="">
+                        <img src="images/header/Path.png" width="37px" class="photo3" alt="">
+                        <div class="box-photo d-flex justify-content-around align-items-center px-3 py-3 rounded-4">
+                            <img src="images/header/Group 117.png" alt="">
+                            <span class="text-light">+۵۰۰ هنرمند</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-light opacity-50 fs-4 w-75 text-center text-lg-start">لورم ایپسوم متن ساختگی با تولید
+                    سادگی نامفهوم از صنعت چاپ و
+                    با استفاده
+                    از طراحان گرافیک است
+                </p>
+                <div
+                    class="d-flex wraper-input-button justify-content-center justify-content-lg-between align-items-center">
+                    <input type="search" class="rounded-5 text-light d-none d-lg-block"
+                        placeholder="جستجو NFT ها و هنرمندان">
+                    <button class="btn fs-4 border-0 rounded-5 text-light px-3 py-3">دریافت مشاوره رایگان</button>
+                </div>
+            </div>
+            <div
+                class="header-content-left d-none d-lg-block d-flex flex-column justify-content-center position-relative">
+                <div class="position-relative container-header-photos w-100">
+                    <img src="images/header/Group 137.png" class="object-fit-cover photo1" alt="">
+                    <img src="images/header/Path (1).png" width="57px" class="photo2" alt="">
+                    <img src="images/header/Path.png" width="37px" class="photo3" alt="">
+                    <div class="box-photo d-flex justify-content-around align-items-center px-3 py-3 rounded-4">
+                        <img src="images/header/Group 117.png" alt="">
+                        <span class="text-light">+۵۰۰ هنرمند</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="container title-box mt-5 pt-5">
+            <div class="d-flex gap-2">
+                <button class="btn border-0 title-box-icon rounded-circle d-inline">
+                    <img src="images/icons/wallet2.svg" width="46" alt="">
+                </button>
+                <div class="d-flex flex-column justify-content-center">
+                    <span class="fs-2 text-light">کیف پــول</span>
+                    <span class="fs-4 text-light">Wallet</span>
+                </div>
+            </div>
+
+            <div class="boxes-wallet d-flex flex-wrap mx-auto justify-content-center mt-5 gap-4 ">
+                <div class="d-flex box1 box flex-column justify-content-around align-items-center position-relative">
+                    <img src="images/main/wallet/logos_metamask-icon.png" class="w-50" alt="">
+                    <span class="">Meta Mask</span>
+                </div>
+                <div class="d-flex box2 box flex-column justify-content-around align-items-center position-relative">
+                    <img src="images/main/wallet/pngaaa 1.png" class="w-50" alt="">
+                    <span class="">Coinbase</span>
+                </div>
+                <div class="d-flex box3 box flex-column justify-content-around align-items-center position-relative">
+                    <img src="images/main/wallet/image 1.png" class="w-50" alt="">
+                    <span class="">Exodus</span>
+                </div>
+                <div class="d-flex box4 box flex-column justify-content-around align-items-center position-relative">
+                    <img src="images/main/wallet/uniswap-coin-uni-cryptocurrency-icon-vector-39141450 1.png"
+                        class="w-50" alt="">
+                    <span class="">Uniswap</span>
+                </div>
+                <div class="d-flex box5 box flex-column justify-content-around align-items-center position-relative">
+                    <img src="images/main/wallet/Group 25.png" class="w-50" alt="">
+                    <span class="">Bainance</span>
+                </div>
+                <div class="d-flex box1 box flex-column justify-content-around align-items-center position-relative">
+                    <img src="images/main/wallet/logos_metamask-icon.png" class="w-50" alt="">
+                    <span class="">Meta Mask</span>
+                </div>
+            </div>
+
+            <div class="title-box d-flex justify-content-between">
+                <div class="d-flex gap-2">
+                    <button class="btn border-0 title-box-icon rounded-circle d-inline">
+                        <img src="images/icons/Group 71.svg" width="46" alt="">
+                    </button>
+                    <div class="d-flex flex-column justify-content-center">
+                        <p class="fs-2 text-light mb-0">پیشنهادهای داغ</p>
+                        <span class="fs-4 text-light">Hot bids</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2 see-all-box">
+                    <span class="text-light">مشاهده همه</span>
+                    <img src="images/icons/arrowleft.svg" class="see-all-arrow" alt="">
+                </div>
+            </div>
+
+
+            <div class="container-cards d-flex gap-3 gap-lg-4 gap-xl-5 mt-5">
+                <div class="card p-3 rounded-4 text-light">
+                    <img src="images/main/image 5.png" class="card-img card-img-top w-100 card-image" alt="">
+                    <div class="d-flex align-items-center justify-content-end heart-time-box w-100 gap-2 gap-lg-3">
+                        <div class="d-flex justify-content-around w-50">
+                            <span>2h </span>
+                            <span> 34m </span>
+                            <span> 8s</span>
+                        </div>
+                        <div><img src="images/icons/heart.svg" alt=""></div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title text-end">Digi Boy</h2>
+                        <p class="text-end fs-4 fw-light">By Negar</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <span class="fs-4">آخرین پیشنهاد</span>
+                            <div>
+                                <span class="price-off-box">2,78 ETH</span>
+                                <img src="images/icons/Group 67.svg" width="16" alt="">
+                            </div>
+                        </div>
+                        <button class="mt-4 fs-4">پیشنهاد سریع</button>
+                    </div>
+                </div>
+                <div class="card p-3 rounded-4 text-light">
+                    <img src="images/main/image 5 (1).png" class="card-img card-img-top w-100 card-image" alt="">
+                    <div class="d-flex align-items-center justify-content-end heart-time-box w-100 gap-2 gap-lg-3">
+                        <div class="d-flex justify-content-around w-50">
+                            <span>2h </span>
+                            <span> 34m </span>
+                            <span> 8s</span>
+                        </div>
+                        <div><img src="images/icons/heart.svg" alt=""></div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title text-end">Angry Ape</h2>
+                        <p class="text-end fs-4 fw-light">By Farshad</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <span class="fs-4">آخرین پیشنهاد</span>
+                            <div>
+                                <span class="price-off-box">2,78 ETH</span>
+                                <img src="images/icons/Group 67.svg" width="16" alt="">
+                            </div>
+                        </div>
+                        <button class="mt-4 fs-4">پیشنهاد سریع</button>
+                    </div>
+                </div>
+
+
+                <div class="card p-3 d-none d-lg-block rounded-4 text-light">
+                    <img src="images/main/image 5 (2).png" class="card-img card-img-top w-100 card-image" alt="">
+                    <div class="d-flex align-items-center justify-content-end heart-time-box w-100 gap-2 gap-lg-3">
+                        <div class="d-flex justify-content-around w-50">
+                            <span>2h </span>
+                            <span> 34m </span>
+                            <span> 8s</span>
+                        </div>
+                        <div><img src="images/icons/heart.svg" alt=""></div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title text-end">Virtualland</h2>
+                        <p class="text-end fs-4 fw-light">By Amirhossein</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <span class="fs-4">آخرین پیشنهاد</span>
+                            <div>
+                                <span class="price-off-box">2,78 ETH</span>
+                                <img src="images/icons/Group 67.svg" width="16" alt="">
+                            </div>
+                        </div>
+                        <button class="mt-4 fs-4">پیشنهاد سریع</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerblur-2">
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <div class="container">
+        <div class="supporter-boxes d-flex flex-column flex-lg-row gap-3 gap-xl-5">
+            <div class="box-support box-support1 text-light p-3 pt-5 position-relative">
+                <div class="support-icon-wraper d-flex align-items-center justify-content-center">
+                    <img src="images/icons/Group 92.svg" class="mx-auto" alt="">
+                </div>
+                <h3 class="">سرعت</h3>
+                <p class="">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                </p>
+            </div>
+            <div class="box-support box-support2 text-light p-3 pt-5 position-relative">
+                <div class="support-icon-wraper d-flex align-items-center justify-content-center">
+                    <img src="images/icons/securityuser.svg" class="mx-auto" alt="">
+                </div>
+                <h3 class="">امنیت</h3>
+                <p class="">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                </p>
+            </div>
+            <div class="box-support box-support3 text-light p-3 pt-5 position-relative">
+                <div class="support-icon-wraper d-flex align-items-center justify-content-center">
+                    <img src="images/icons/Group 87.svg" class="mx-auto" alt="">
+                </div>
+                <h3 class="">پشتیبانی</h3>
+                <p class="fw-lighter">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                    گرافیک است </p>
+            </div>
+        </div>
+
+        <div class="trends">
+            <div class="title-box d-flex justify-content-between">
+                <div class="d-flex gap-2">
+                    <button class="btn border-0 title-box-icon rounded-circle d-inline">
+                        <img src="images/icons/star1.svg" width="46" alt="">
+                    </button>
+                    <div class="d-flex flex-column justify-content-center">
+                        <p class="fs-2 text-light mb-0">پر بازدیدترین ها</p>
+                        <span class="fs-4 text-light">Trends</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2 see-all-box">
+                    <span class="text-light">مشاهده همه</span>
+                    <img src="images/icons/arrowleft.svg" class="see-all-arrow" alt="">
+                </div>
+            </div>
+            <div class="containerblur-3">
+            </div>
+
+            <div class="trend-boxes d-flex gap-3 gap-lg-5 justify-content-center flex-wrap flex-lg-nowrap">
+                <div class="trendbox">
+                    <div class="trendbox-img"><img src="images/main/image 6.png"
+                            class="object-fit-cover align-middle img-trend" alt=""></div>
+                    <div class="trendcontent p-4 text-light">
+                        <h3 class="text-end">D'EVOLs</h3>
+                        <div class="d-flex justify-content-between">
+                            <div> <img src="images/icons/Group 67.svg" width="16" alt=""> <span class="fs-5">2,78
+                                    ETH</span></div>
+                            <span class="fs-5">By Mahsa</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trendbox">
+                    <div class="trendbox-img"><img src="images/main/image 6 (1).png"
+                            class="object-fit-cover align-middle img-trend" alt=""></div>
+                    <div class="trendcontent p-4 text-light">
+                        <h3 class="text-end">D'EVOLs</h3>
+                        <div class="d-flex justify-content-between">
+                            <div> <img src="images/icons/Group 67.svg" width="16" alt=""> <span class="fs-5">2,78
+                                    ETH</span></div>
+                            <span class="fs-5">By Amir</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trendbox">
+                    <div class="trendbox-img"><img src="images/main/image 6 (2).png"
+                            class="object-fit-cover align-middle img-trend" alt=""></div>
+                    <div class="trendcontent p-4 text-light">
+                        <h3 class="text-end">D'EVOLs</h3>
+                        <div class="d-flex justify-content-between">
+                            <div> <img src="images/icons/Group 67.svg" width="16" alt=""> <span class="fs-5">2,78
+                                    ETH</span></div>
+                            <span class="fs-5">By Reza</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trendbox trendbox4 d-lg-none">
+                    <div class="trendbox-img"><img src="images/main/image 6 copy.png"
+                            class="object-fit-cover align-middle img-trend img-trend4" alt=""></div>
+                    <div class="trendcontent p-4 text-light">
+                        <h3 class="text-end">D'EVOLs</h3>
+                        <div class="d-flex justify-content-between">
+                            <div> <img src="images/icons/Group 67.svg" width="16" alt=""> <span class="fs-5">2,78
+                                    ETH</span></div>
+                            <span class="fs-5">By Amir</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-creators">
+           
+            <div class="title-box d-flex justify-content-between" id="top-creators">
+                <div class="d-flex gap-2">
+                    <button class="btn border-0 title-box-icon rounded-circle d-inline">
+                        <img src="images/icons/user copy.svg" width="46" alt="">
+                    </button>
+                    <div class="d-flex flex-column justify-content-center">
+                        <p class="fs-2 text-light mb-0">هنرمندان برتر</p>
+                        <span class="fs-4 text-light">Top Creators</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2 see-all-box">
+                    <span class="text-light">مشاهده همه</span>
+                    <img src="images/icons/arrowleft.svg" class="see-all-arrow" alt="">
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 m-0 p-0">
+                <div class="mb-4">
+                    <div class="row-box d-flex justify-content-end">
+                        <div class="text-light d-flex flex-column justify-content-around w-100">
+                            <p class="m-0 text-end">Negar77</p>
+                            <img src="images/icons/Group 104.svg" class="align-self-end" width="79" alt="">
+                            <div class="d-flex justify-content-between">
+                                <span>فروش کل:</span>
+                                <span>56.32 ETH</span>
+                            </div>
+                        </div>
+                        <div class="ps-2 ps-xl-4">
+                            <img src="images/row/Group 112.png" class="row-box-picture" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="row-box d-flex justify-content-end">
+                        <div class="text-light d-flex flex-column justify-content-around w-100">
+                            <p class="m-0 text-end">Mahdi_nft</p>
+                            <img src="images/icons/Group 104.svg" class="align-self-end" width="79" alt="">
+                            <div class="d-flex justify-content-between">
+                                <span>فروش کل:</span>
+                                <span>56.32 ETH</span>
+                            </div>
+                        </div>
+                        <div class="ps-2 ps-xl-4">
+                            <img src="images/row/Group 112 copy.png" class="row-box-picture" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="row-box d-flex justify-content-end">
+                        <div class="text-light d-flex flex-column justify-content-around w-100">
+                            <p class="m-0 text-end">Amirhossein75</p>
+                            <img src="images/icons/Group 104.svg" class="align-self-end" width="79" alt="">
+                            <div class="d-flex justify-content-between">
+                                <span>فروش کل:</span>
+                                <span>56.32 ETH</span>
+                            </div>
+                        </div>
+                        <div class="ps-2 ps-xl-4">
+                            <img src="images/row/Group 112 (1).png" class="row-box-picture" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4 ">
+                    <div class="row-box d-flex justify-content-end">
+                        <div class="text-light d-flex flex-column justify-content-around w-100">
+                            <p class="m-0 text-end">Kamran1995</p>
+                            <img src="images/icons/Group 104.svg" class="align-self-end" width="79" alt="">
+                            <div class="d-flex justify-content-between">
+                                <span>فروش کل:</span>
+                                <span>56.32 ETH</span>
+                            </div>
+                        </div>
+                        <div class="ps-2 ps-xl-4">
+                            <img src="images/row/Group 112 (2).png" class="row-box-picture" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4 d-none d-md-block">
+                    <div class="row-box d-flex justify-content-end">
+                        <div class="text-light d-flex flex-column justify-content-around w-100">
+                            <p class="m-0 text-end">Mahsa_art</p>
+                            <img src="images/icons/Group 104.svg" class="align-self-end" width="79" alt="">
+                            <div class="d-flex justify-content-between">
+                                <span>فروش کل:</span>
+                                <span>56.32 ETH</span>
+                            </div>
+                        </div>
+                        <div class="ps-2 ps-xl-4">
+                            <img src="images/row/Group 112 (3).png" class="row-box-picture" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4 d-none d-md-block">
+                    <div class="row-box d-flex justify-content-end">
+                        <div class="text-light d-flex flex-column justify-content-around w-100">
+                            <p class="m-0 text-end">Amirhossein75</p>
+                            <img src="images/icons/Group 104.svg" class="align-self-end" width="79" alt="">
+                            <div class="d-flex justify-content-between">
+                                <span>فروش کل:</span>
+                                <span>56.32 ETH</span>
+                            </div>
+                        </div>
+                        <div class="ps-2 ps-xl-4">
+                            <img src="images/row/Group 112 (4).png" class="row-box-picture" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-input-box ">
+            <div class="input-box-wraper d-flex flex-column align-items-center gap-4 position-relative">
+                <div class="img-footer1">
+                    <img src="images/icons/Group 122.png" alt="">
+                </div>
+                <div>
+                    <h5 class="text-light text-center">عضویت در خبرنامه</h5>
+                    <p class="text-center pt-3">به جامعه Art Token بپیوندید تا در جریان آخرین اخبار، ویژگی‌ها و نکات
+                        مربوط به این بازار قرار
+                        بگیرید.
+                    </p>
+                </div>
+                <div class="input-email-footer">
+                    <input type="email" class="rounded-start-pill" placeholder="ایمیل خود را وارد کنید">
+                    <button class="rounded-end-pill">ارسال</button>
+                </div>
+                <div class="img-footer2">
+                    <img src="images/icons/Group 123.png" alt="">
+                </div>
+                <div class="img-footer3">
+                    <img src="images/icons/Group 123 2.png" alt="">
+                </div>
+                <div class="img-footer4">
+                    <img src="images/icons/Group 123 (1).png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container text-light ">
+            <div class="containerblur-4">
+            </div>
+            <div
+                class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start pt-5 footer-wraper justify-content-between gap-5">
+                <div class="d-flex flex-column align-items-center align-items-lg-start w-100">
+                    <h5>Iran NFT</h5>
+                    <p class="text-center text-lg-start">بازار دیجیتال جهانی برای خرید و فروش کلکسیون ها و توکن های
+                        غیرقابل تعویض (NFT) و کشف اقلام
+                        دیجیتال منحصر به فرد</p>
+                </div>
+                <div class="d-none d-lg-block w-100">
+                    <h5>دسترسی سریع</h5>
+                    <div class="d-flex flex-column gap-3">
+                        <a href="">شرایط استفاده از خدمات</a>
+                        <a href=""> سوالات متداول</a>
+                        <a href=""> درباره ما</a>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block w-100">
+                    <h5>حساب من</h5>
+                    <div class="d-flex flex-column gap-3">
+                        <a href="">پروفایل</a>
+                        <a href=""> ان اف تی های شما</a>
+                        <a href=""> علاقه مندی ها</a>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center align-items-lg-start w-100">
+                    <h5>به ما بپیوندید</h5>
+                    <div class="d-flex align-items-center justify-content-center gap-2 mt-lg-4">
+                        <button><img src="images/footer/Group 130.svg" alt=""></button>
+                        <button><img src="images/footer/Group 128.svg" alt=""></button>
+                        <button id="discord"><img src="images/footer/Group 131.svg" alt=""></button>
+                        <button><img src="images/footer/Group 129.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="d-flex w-100 justify-content-between gap-lg-0 d-lg-none ">
+                    <div class="w-100 d-flex flex-column align-items-center align-items-lg-start footer-a-wraper">
+                        <h5>دسترسی سریع</h5>
+                        <div class="d-flex flex-column gap-3">
+                            <a href="" class="">شرایط استفاده از خدمات</a>
+                            <a href="" class=""> سوالات متداول</a>
+                            <a href="" class=""> درباره ما</a>
+                        </div>
+                    </div>
+                    <div
+                        class="d-lg-none w-100 d-flex flex-column align-items-center align-items-lg-start footer-a-wraper">
+                        <h5>حساب من</h5>
+                        <div class="d-flex flex-column gap-3">
+                            <a href="" class="">پروفایل</a>
+                            <a href="" class=""> ان اف تی های شما</a>
+                            <a href="" class=""> علاقه مندی ها</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
